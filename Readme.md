@@ -43,12 +43,12 @@ eksctl create cluster \
 ### 2. Apply Kubernetes Manifests
 
 ```bash
-kubectl apply -f eks/eks-spring.yaml
+kubectl apply -f eks.yaml
 ```
 
 **Explanation:**
 
-* Deploys the Spring application pods, services, and config maps defined in `eks-spring.yaml`.
+* Deploys the Spring application pods, services, and config maps defined in `eks.yaml`.
 
 ---
 
@@ -130,9 +130,9 @@ eksctl delete cluster --name spring-cluster
 
 ## Screenshots
 
-1. **ECR Repository:** `ECR.png`
+1. **Amazon ECR Repository:** `ECR.png`
 2. **Cluster Creation Command:** `create-cluster.png`
-3. **EKS Console:** `Cluster-on-aws.png`
+3. **EKS Cluster Status:** `Cluster-on-aws.png`
 4. **Kubernetes Resources:** `all.png`
 5. **AWS Load Balancer:** `loadbalancer.png`
 6. **Application Access:** `spring.png`
@@ -148,3 +148,5 @@ This project demonstrates an **end-to-end cloud-native deployment** workflow:
 3. Deploy application on Kubernetes.
 4. Expose using a LoadBalancer service in AWS.
 5. Verify the application is accessible via web browser.
+
+```
