@@ -129,15 +129,13 @@ eksctl delete cluster --name spring-cluster
 ---
 
 ## Screenshots
+1. **Amazon ECR Repository:** ![ECR](https://github.com/abd-elrahman-mohamed-anter/spring-with-eks/blob/main/ECR.png)  
+2. **Cluster Creation Command:** ![create-cluster](https://github.com/abd-elrahman-mohamed-anter/spring-with-eks/blob/main/create-cluster.png)  
+3. **EKS Cluster Status:** ![Cluster-on-aws](https://github.com/abd-elrahman-mohamed-anter/spring-with-eks/blob/main/Cluster-on-aws.png)  
+4. **Kubernetes Resources:** ![all](https://github.com/abd-elrahman-mohamed-anter/spring-with-eks/blob/main/all.png)  
+5. **AWS Load Balancer:** ![loadbalancer](https://github.com/abd-elrahman-mohamed-anter/spring-with-eks/blob/main/loadbalancer.png)  
+6. **Application Access:** ![spring](https://github.com/abd-elrahman-mohamed-anter/spring-with-eks/blob/main/spring.png)
 
-1. **Amazon ECR Repository:** `ECR.png`
-2. **Cluster Creation Command:** `create-cluster.png`
-3. **EKS Cluster Status:** `Cluster-on-aws.png`
-4. **Kubernetes Resources:** `all.png`
-5. **AWS Load Balancer:** `loadbalancer.png`
-6. **Application Access:** `spring.png`
-
----
 
 ## Summary
 
