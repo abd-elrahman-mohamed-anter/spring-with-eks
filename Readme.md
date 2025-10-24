@@ -146,5 +146,3 @@ This project demonstrates an **end-to-end cloud-native deployment** workflow:
 3. Deploy application on Kubernetes.
 4. Expose using a LoadBalancer service in AWS.
 5. Verify the application is accessible via web browser.
-
-```
